@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://1pdtra8ky600"]
+
+[ext_resource type="Script" uid="uid://bgqaaqgwmeagh" path="res://scripts/Board.gd" id="1_bw3vb"]
+[ext_resource type="Script" uid="uid://hoa6cnaut2h" path="res://scripts/GameManager.gd" id="2_tx6nw"]
+[ext_resource type="PackedScene" uid="uid://cisem4php3nh2" path="res://scenes/UI.tscn" id="3_nglv8"]
+
+[node name="Board" type="Node2D" unique_id=486617711]
+script = ExtResource("1_bw3vb")
+
+[node name="GameManager" type="Node" parent="." unique_id=1128336949]
+script = ExtResource("2_tx6nw")
+
+[node name="UI" parent="." unique_id=923576412 instance=ExtResource("3_nglv8")]

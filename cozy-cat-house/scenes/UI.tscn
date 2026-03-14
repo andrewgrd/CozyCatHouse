@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://cisem4php3nh2"]
+
+[ext_resource type="Script" uid="uid://dykwbvkd05hf2" path="res://scenes/ui.gd" id="1_dj8aq"]
+
+[node name="UI" type="CanvasLayer" unique_id=373365361]
+script = ExtResource("1_dj8aq")
+
+[node name="VBox" type="VBoxContainer" parent="." unique_id=915388415]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="LabelMoves" type="Label" parent="VBox" unique_id=909983619]
+layout_mode = 2
+
+[node name="LabelScore" type="Label" parent="VBox" unique_id=822522356]
+layout_mode = 2
